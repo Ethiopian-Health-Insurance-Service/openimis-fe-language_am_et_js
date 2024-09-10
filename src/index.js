@@ -1,9 +1,9 @@
-import messages_en from "./translations/en.json";
+import messages_am_et from "./translations/am_et.json";
 
 const DEFAULT_CONFIG = {
-  "translations": [{ key: "en", messages: messages_en }],
+  "translations": [{ key: "am_et", messages: messages_am_et }],
 }
 
-export const TemplateModule = (cfg) => {
+export const LanguageAmEtModule = (cfg) => {
   return { ...DEFAULT_CONFIG, ...cfg };
 }
